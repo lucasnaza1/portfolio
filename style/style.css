@@ -20,6 +20,23 @@
   height: 145px;
 }
 
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-icon {
+  background-color: #87cefa;
+  width: 280px;
+  text-align: center;
+  border-radius: 16px;
+  font-size: 34px;
+  padding: 6px 4px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 1px 2.5px #00bfff;
+}
+
 body {
   background-color: #000000;
   height: 100vh;
@@ -28,7 +45,7 @@ body {
 
 .titulo {
   color: #e1e3e1;
-  font-size: 30px;
+  font-size: 26px;
 }
 .funcao {
   color: #00bfff;
@@ -36,7 +53,7 @@ body {
 
 .conteudo-apresentacao {
   color: #cdedf8;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 a {
@@ -46,4 +63,10 @@ a {
   border: 2px Solid black;
   margin: 20px;
   font-size: 26px;
+}
+
+.photo {
+  width: 400px;
+  height: auto;
+  border-radius: 50%;
 }
