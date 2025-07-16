@@ -1,9 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Julius+Sans+One&display=swap");
 /*Configuração Geral*/
 * {
-  font-family: "Julius Sans One", sans-serif;
-  font-weight: 100;
-  font-style: normal;
   margin: 0;
   padding: 0;
 }
@@ -30,10 +27,17 @@ body {
   height: 145px;
   flex-direction: column;
   gap: 40px;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 /*h1*/
 .titulo {
+  text-align: justify;
   color: #e1e3e1;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 500;
+  font-style: normal;
   font-size: 26px;
 }
 /*strong*/
@@ -52,18 +56,26 @@ body {
   color: #c1ff72;
   align-items: center;
 }
+/*h2*/
+.apresentacao-links {
+  text-align: justify;
+  font-family: "Julius Sans One", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 24px;
+}
 /*ancora*/
 .btn-icon {
   background-color: #000000;
   width: 130px;
   text-align: center;
-  border-radius: 12px;
+  border-radius: 6px;
   font-size: 20px;
   padding: 6px 4px;
   text-decoration: none;
   font-weight: 600;
   color: #c1ff72;
-  border: 2px Solid #9cff19;
+  border: 2px groove #9cff19;
   margin: 10px;
 }
 /*img*/
