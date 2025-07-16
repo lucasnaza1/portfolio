@@ -1,5 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Julius+Sans+One&display=swap");
-/*Configuração Geral*/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Electrolize&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Julius+Sans+One&display=swap"); /*Configuração Geral*/
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +11,7 @@ body {
   background-color: #000000;
   height: 100vh;
   box-sizing: border-box;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: 100;
   font-style: normal;
 }
@@ -36,7 +35,7 @@ body {
 .titulo {
   text-align: justify;
   color: #e1e3e1;
-  font-family: "Julius Sans One", sans-serif;
+  font-family: "Exo 2", sans-serif;
   font-weight: 500;
   font-style: normal;
   font-size: 26px;
