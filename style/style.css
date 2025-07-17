@@ -7,17 +7,14 @@
 
 .cabecalho {
   margin: 2px;
-  padding: 0 2px;
+  padding: 2% 0% 0% 15%;
 }
 
 .cabecalho-menu {
-  background-color: #d7ffa3;
-  padding: 20px;
   width: auto;
-  justify-content: center;
   align-items: center;
   display: flex;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 .cabecalho-menu-item {
@@ -25,11 +22,11 @@
   font-weight: 600;
   font-style: normal;
   font-size: 18px;
-  color: #000000;
-  background-color: #d7ffa3;
+  text-decoration: none;
+  color: #c1ff72;
 }
 .cabecalho-menu-item:hover {
-  background-color: #9cff19;
+  color: #9cff19;
 }
 
 /*Estilização do conteúdo: body, main, section, h1, strong, p*/
@@ -44,7 +41,7 @@ body {
 }
 /*Main*/
 .conteudo {
-  padding: 8% 15%;
+  padding: 5% 15%;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -100,7 +97,7 @@ body {
   text-align: center;
   border-radius: 12px;
   font-size: 20px;
-  padding: 20px 5px;
+  padding: 15px 5px;
   text-decoration: none;
   font-weight: 600;
   color: #c1ff72;
