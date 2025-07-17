@@ -5,11 +5,38 @@
   box-sizing: border-box;
 }
 
+.cabecalho {
+  margin: 2px;
+  padding: 0 2px;
+}
+
+.cabecalho-menu {
+  background-color: #d7ffa3;
+  padding: 20px;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.cabecalho-menu-item {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color: #000000;
+  background-color: #d7ffa3;
+}
+.cabecalho-menu-item:hover {
+  background-color: #9cff19;
+}
+
 /*Estilização do conteúdo: body, main, section, h1, strong, p*/
 
 body {
   background-color: #000000;
-  height: 100vh;
+  /* height: 100vh; */
   box-sizing: border-box;
   font-family: "Exo 2", sans-serif;
   font-weight: 100;
@@ -17,7 +44,7 @@ body {
 }
 /*Main*/
 .conteudo {
-  margin: 10% 10%;
+  padding: 8% 15%;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
@@ -67,13 +94,13 @@ body {
 .btn-icon {
   display: flex;
   justify-content: space-evenly;
-  gap: 12px;
+  gap: 10px;
   background-color: #000000;
   width: 150px;
   text-align: center;
   border-radius: 12px;
   font-size: 20px;
-  padding: 6px 4px;
+  padding: 20px 5px;
   text-decoration: none;
   font-weight: 600;
   color: #c1ff72;
@@ -104,4 +131,14 @@ body {
 
 .photo:hover {
   opacity: 75%;
+}
+
+.rodape {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  padding: 30px;
+  background-color: #c1ff72;
+  color: #000000;
 }
