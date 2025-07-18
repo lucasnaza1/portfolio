@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Electrolize&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Julius+Sans+One&display=swap"); /*Configuração Geral*/
+
+:root {
+  --cor-primaria: #000000;
+  --cor-secundaria: #e1e3e1;
+  --cor-terciaria: #c1ff72;
+  --cor-quaternaria: #9cff19;
+
+  --fonte-primaria: "Exo 2", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -18,24 +28,24 @@
 }
 
 .cabecalho-menu-item {
-  font-family: "Exo 2", sans-serif;
+  font-family: var(--fonte-primaria);
   font-weight: 600;
   font-style: normal;
   font-size: 18px;
   text-decoration: none;
-  color: #c1ff72;
+  color: var(--cor-terciaria);
 }
 .cabecalho-menu-item:hover {
-  color: #9cff19;
+  color: var(--cor-quaternaria);
 }
 
 /*Estilização do conteúdo: body, main, section, h1, strong, p*/
 
 body {
-  background-color: #000000;
+  background-color: var(--cor-primaria);
   /* height: 100vh; */
   box-sizing: border-box;
-  font-family: "Exo 2", sans-serif;
+  font-family: var(--fonte-primaria);
   font-weight: 100;
   font-style: normal;
 }
@@ -58,26 +68,26 @@ body {
 /*h1*/
 .titulo {
   text-align: justify;
-  color: #e1e3e1;
-  font-family: "Exo 2", sans-serif;
+  color: var(--cor-secundaria);
+  font-family: var(--fonte-primaria);
   font-weight: 500;
   font-style: normal;
   font-size: 26px;
 }
 /*strong*/
 .funcao {
-  color: #9cff19;
+  color: var(--cor-quaternaria);
 }
 /*p*/
 .conteudo-apresentacao {
-  color: #d7ffa3;
+  color: var(--cor-terciaria);
   font-size: 18px;
 }
 /*div - dos botões "ancoras"*/
 .btns {
   display: flex;
   flex-direction: column;
-  color: #c1ff72;
+  color: var(--cor-terciaria);
   align-items: center;
   gap: 2px;
 }
@@ -85,14 +95,14 @@ body {
 .apresentacao-links {
   text-align: justify;
   font-size: 24px;
-  color: #e1e3e1;
+  color: var(--cor-secundaria);
 }
 /*ancora*/
 .btn-icon {
   display: flex;
   justify-content: space-evenly;
   gap: 10px;
-  background-color: #000000;
+  background-color: var(--cor-primaria);
   width: 150px;
   text-align: center;
   border-radius: 12px;
@@ -100,8 +110,8 @@ body {
   padding: 15px 5px;
   text-decoration: none;
   font-weight: 600;
-  color: #c1ff72;
-  border: 2px solid #9cff19;
+  color: var(--cor-terciaria);
+  border: 2px solid var(--cor-quaternaria);
   margin: 20px;
 }
 
@@ -121,7 +131,7 @@ body {
 
 .photo {
   width: 300px;
-  border: 4px solid #c1ff72;
+  border: 4px solid var(--cor-terciaria);
   height: auto;
   border-radius: 15%;
 }
@@ -131,11 +141,11 @@ body {
 }
 
 .rodape {
-  font-family: "Exo 2", sans-serif;
+  font-family: var(--fonte-primaria);
   font-weight: 400;
   font-style: normal;
   text-align: center;
   padding: 30px;
-  background-color: #c1ff72;
-  color: #000000;
+  background-color: var(--cor-terciaria);
+  color: var(--cor-primaria);
 }
