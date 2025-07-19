@@ -16,7 +16,6 @@
 }
 
 .cabecalho {
-  margin: 0.1rem;
   padding: 2% 0% 0% 15%;
 }
 
@@ -24,7 +23,7 @@
   width: auto;
   align-items: center;
   display: flex;
-  gap: 1rem;
+  gap: 4rem;
 }
 
 .cabecalho-menu-item {
@@ -51,6 +50,7 @@ body {
 }
 /*Main*/
 .conteudo {
+  gap: 1rem;
   padding: 5% 15%;
   display: flex;
   align-items: flex-start;
@@ -103,9 +103,8 @@ body {
   justify-content: space-evenly;
   background-color: var(--cor-primaria);
   width: 30%;
-  text-align: center;
   border-radius: 12px;
-  font-size: 1.2rem;
+  font-size: 100%;
   padding: 2% 4% 2%;
   text-decoration: none;
   font-weight: 600;
@@ -123,7 +122,7 @@ body {
   height: flex;
 }
 .social-icon {
-  width: 1.5rem;
+  width: 1rem;
   height: flex;
 }
 /*img*/
@@ -147,4 +146,18 @@ body {
   padding: 2rem;
   background-color: var(--cor-terciaria);
   color: var(--cor-primaria);
+}
+
+@media (max-width: 800px) {
+  .cabecalho {
+    padding: 5%;
+  }
+
+  .cabecalho-menu {
+    justify-content: center;
+  }
+
+  .conteudo {
+    flex-direction: column-reverse;
+  }
 }
