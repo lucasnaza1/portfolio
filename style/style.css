@@ -43,7 +43,6 @@
 body {
   display: flex;
   flex-direction: column;
-  height: 100%;
   background-color: var(--cor-primaria);
   /* height: 100vh; */
   box-sizing: border-box;
@@ -53,6 +52,7 @@ body {
 }
 /*Main*/
 .conteudo {
+  height: 100%;
   gap: 1rem;
   padding: 5% 15%;
   display: flex;
