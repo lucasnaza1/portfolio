@@ -1,6 +1,6 @@
 
 
-# Portfólio Olá, Bem vindo ao meu projeto de portfólio.
+#Esse é o meu projeto de portfólio.
 
 
 ## Ferramentas utilizadas:
@@ -9,13 +9,10 @@
 
 * CSS
 
-* Flex-box
-
 ## Feito por:
 
-### Joana Santos
+### Lucas Nazário
 
-### Linkedin: https://www.linkedin.com/school/aluracursos/
-
+### Linkedin: https://www.linkedin.com/in/lucas-naz%C3%A1rio-80b02a289/
 
 
