@@ -44,7 +44,7 @@ body {
   display: flex;
   flex-direction: column;
   background-color: var(--cor-primaria);
-  /* height: 100vh; */
+  height: 100vh;
   box-sizing: border-box;
   font-family: var(--fonte-primaria);
   font-weight: 100;
@@ -172,6 +172,10 @@ body {
 }
 
 @media (max-width: 800px) {
+  body {
+    height: auto;
+  }
+
   .cabecalho {
     padding: 5%;
   }
