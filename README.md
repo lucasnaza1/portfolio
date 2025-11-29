@@ -25,23 +25,6 @@ O projeto foi desenvolvido com foco nos fundamentos e em boas práticas de front
 | **CSS3** | Linguagem de estilização para o design, layout e responsividade. |
 | **Vercel** | Plataforma utilizada para hospedagem e deployment contínuo. |
 
-## 🚀 Como Rodar Localmente
-
-Se você deseja inspecionar ou testar o código em sua máquina:
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone https://github.com/lucasnaza1/portfolio
-    ```
-
-2.  **Navegue até a pasta do projeto:**
-    ```bash
-    cd portfolio
-    ```
-
-3.  **Abra o arquivo:**
-    Simplesmente abra o arquivo `index.html` em seu navegador de preferência.
-
 ## 📄 Licença
 
 Este projeto está licenciado sob a **Licença MIT** - veja o arquivo `LICENSE.md` para mais detalhes. (Se você não tiver um arquivo de licença, pode remover esta seção ou criá-lo).
