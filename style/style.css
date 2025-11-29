@@ -28,9 +28,9 @@
 
 .cabecalho-menu-item {
   font-family: var(--fonte-primaria);
-  font-weight: 600;
+  font-weight: 300;
   font-style: normal;
-  font-size: 1rem;
+  font-size: 1.4rem;
   text-decoration: none;
   color: var(--cor-terciaria);
 }
@@ -89,8 +89,8 @@ body {
 /*p*/
 .conteudo-apresentacao {
   color: var(--cor-terciaria);
-  font-size: 1rem;
-  font-weight: 500;
+  font-size: 1.4rem;
+  font-weight: 300;
 }
 
 /*div - dos botões "ancoras"*/
@@ -126,6 +126,11 @@ body {
 /*h2*/
 .apresentacao-links {
   font-size: 1.2rem;
+  font-weight: 400;
+  text-align: center;
+  justify-content: center;
+  display: flex ;
+  flex-direction: row;
   color: var(--cor-secundaria);
 }
 
@@ -148,6 +153,7 @@ body {
 .photo-container {
   display: flex;
   justify-content: center;
+  align-items: center; 
 }
 
 .photo {
@@ -163,6 +169,7 @@ body {
 
 .rodape {
   font-family: var(--fonte-primaria);
+  font-size: 1.4rem;
   font-weight: 400;
   font-style: normal;
   text-align: center;
